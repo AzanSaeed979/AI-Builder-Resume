@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.logo {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  border-radius: 100px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: -110px;
+
+}
+
+.lists li {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  margin-top: -45px;
+  cursor: pointer;
+
+}
+
+.icon {
+  margin-left: 5px;
+  /* Adjust spacing between text and icon */
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 10px;
+  gap: 25px;
+}
+
+.buttons .simple {
+  border: none;
+  color: blueviolet;
+  margin-top: -45px;
+  background-color: none;
+  cursor: pointer;
+}
+
+.buttons .common {
+  border: none;
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: -45px;
+  cursor: pointer;
+
+}

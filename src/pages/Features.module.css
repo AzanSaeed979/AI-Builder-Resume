@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+  margin-left: 95px;
+  margin-top: 30px;
+}
+
+.parent h4 {
+  color: blue;
+}

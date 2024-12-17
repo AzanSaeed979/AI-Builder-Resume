@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.buttons {
+  background-color: blue;
+  color: white;
+  padding: 12px;
+  border: none;
+  margin-left: 45%;
+  margin-top: 15px;
+}
